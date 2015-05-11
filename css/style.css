@@ -63,7 +63,7 @@ Proper Website CSS Begins
 
 /*
 ====================
-Custome Styles
+Custom Styles
 ====================
 */
 
@@ -72,5 +72,314 @@ body {
 	color: #d9d9d9;
 	font: 300 13px/19px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } 
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  	box-sizing: border-box;
+}
+.container,
+.grid {
+  	margin: 0 auto;
+  	min-width: 960px;
+}
+.container {
+  	padding-left: 30px;
+  	padding-right: 30px;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  	padding-left: 15px;
+  	padding-right: 15px;
+}
+.col-1-3,
+.col-2-3  {
+  	display: inline-block;
+  	vertical-align: top;
+}
+.col-1-3 {
+  	width: 33.33%;
+}
+.col-2-3 {
+  	width: 66.66%;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  	content: "";
+  	display: table;
+}
+.group:after {
+  	clear: both;
+}
+.group {
+  	clear: both;
+  	*zoom: 1;
+}
+
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row,
+.row-alt {
+  	min-width: 960px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1 {
+	font-size: 22px;
+  	line-height: 33px;
+}
+h2 {
+	font-size: 45px;
+  	line-height: 67.5px;
+}
+h3 {
+	color: #2a2a2a;
+  	font-size: 15px;
+}
+h4 {
+  	font-size: 23px;
+  	font-weight: 400	
+}
+h5 {
+  	font-size: 23px;
+  	font-weight: 400;
+  	text-transform: uppercase;
+}
+strong {
+  	font-weight: 700;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  	color: #2a2a2a;
+  	text-decoration: none;
+}
+a:hover {
+  	color: #ff6760;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  	border-radius: 5px;
+  	background: #ff6760;
+  	color: #d9d9d9;
+  	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+  	font-weight: 700;
+  	letter-spacing: .5px;
+  	margin: 0;
+  	padding: 10px 30px;
+  	text-transform: uppercase;
+	border: 0;	
+}
+.btn:hover {
+	color: #2a2a2a;
+}
+.btn-alt {
+}
+.btn-alt:hover {
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.primary-header {
+	background: #000000;
+}
+
+.logo {
+  float: left;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 35px;
+  padding: 10px 0 22px 0;
+  text-transform: uppercase;
+}
+
+.logo a {
+	color: #ff6760;;
+}
+
+.logo a:hover {
+	color: #d9d9d9;
+}
+
+.primary-nav {
+	font-size: 10px;
+	font-weight: 700;
+  	letter-spacing: .5px;
+  	text-transform: uppercase;
+}
+
+.primary-nav a {
+	color: #d9d9d9;
+}
+
+.primary-nav a:hover {
+	color: #ff6760;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+  background: #000000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.primary-nav {
+  text-align: right;
+}
+.primary-nav li {
+  display: inline-block;
+  margin: 10px;
+  padding-top: 30px;
+}
+.primary-nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+  	padding: 22px 80px 44px 80px;
+  	text-align: center;
+}
+
+.hero p {
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 45px;
+	padding-bottom: 20px;
+}
+
+/*
+  ========================================
+  Servicios
+  ========================================
+*/
+
+.services {
+	background: #d9d9d9;
+	color: #2a2a2a;
+	font-weight: 400;
+	text-align: center;
+}
+
+.serv {
+	margin-top: 88px;
+	padding-bottom: 22px;
+}
+
+.serv h3 {
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.serv img {
+	border-radius: 50%;
+	height: 59px;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
+}
+
+/*
+  ========================================
+  Proyectos
+  ========================================
+*/
+
+.proyects {
+	background: #ffffff;
+	color: #2a2a2a;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.intro_text {
+	padding-bottom: 30px;
+}
+
+.intro_text h4 {
+	padding-bottom: 10px;
+}
+
+.proy img {
+	border-radius: 5px;
+  	display: block;
+  	margin-bottom: 22px;
+  	max-width: 100%
+}
+
+.proy h3:hover {
+	color: #ff6760;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
 
 
