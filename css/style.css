@@ -236,7 +236,7 @@ a:hover {
 }
 
 .logo a {
-	color: #ff6760;;
+	color: #ff6760;
 }
 
 .logo a:hover {
@@ -332,7 +332,7 @@ a:hover {
 
 .serv img {
 	border-radius: 50%;
-	height: 59px;
+	height: 70px;
 	margin: -66px 0 22px 0;
 	vertical-align: top;
 }
@@ -378,8 +378,132 @@ a:hover {
 */
 
 .primary-footer {
-	padding-top: 44px;
-	padding-bottom: 44px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
+.primary-footer h5 {
+	padding-bottom: 10px;
+}
 
+.primary-footer p {
+	padding-bottom: 5px;
+}
+
+.contact-info {
+	color: #ff6760;
+}
+
+/*
+  ========================================
+  Empleados
+  ========================================
+*/
+
+.empleados {
+	background: #ffffff;
+}
+
+.empleado {
+	margin-bottom: 44px;
+	color: #2a2a2a;
+}
+
+.empleado h2 {
+	font-weight: 400;
+	font-size: 35px; 
+}
+
+.empleado h5 {
+	color: #ff6760;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 37px;
+	padding-bottom: 10px;
+}
+
+.info-empleado {
+	font-size: 15px;
+	border: 1px solid #ff6760;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.info-empleado img {
+  	border-radius: 50%;
+  	height: 130px;
+  	margin: -66px 0 22px 0;
+  	vertical-align: top;
+}
+
+/*
+  ========================================
+  Contacto
+  ========================================
+*/
+
+.contacto {
+	background: #ffffff;
+	color: #2a2a2a;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contacto h2, h4 {
+	font-weight: 300;
+	color: #ff6760;
+}
+
+.contacto h2 {
+	font-size: 30px;
+}
+
+.contacto h4 {
+	font-size: 20px;
+}
+.contacto p {
+	padding-bottom: 10px;
+}
+
+.promesa {
+	list-style: square;
+	margin: 10px 0 22px 30px
+}
+
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.datos-personales label {
+  color: #2a2a2a;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.datos-personales input,
+.datos-personales select,
+..datos-personales textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+
+.datos-personales input,
+.datos-personales textarea {
+  width: 100%;
+}
+
+.datos-personales select {
+  height: 34px;
+  width: 60px;
+}
+
+.datos-personales textarea {
+  height: 78px;
+}
