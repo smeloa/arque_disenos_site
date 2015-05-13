@@ -225,14 +225,26 @@ a:hover {
 	background: #000000;
 }
 
+/* h1.logo {
+	width: 300px;
+	height: 75px;
+	background: url(LOGO_ADLM.png);
+	text-indent: -9999px;
+} */
+
 .logo {
-  float: left;
-  font-size: 23px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  line-height: 35px;
-  padding: 10px 0 22px 0;
-  text-transform: uppercase;
+	font-family: "Bodoni";
+  	float: left;
+  	font-size: 23px;
+  	font-weight: 700;
+  	letter-spacing: 1.5px;
+  	line-height: 35px;
+  	padding: 10px 0 10px 0;
+  	text-transform: uppercase;
+}
+
+.logo span {
+	font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .logo a {
@@ -248,6 +260,7 @@ a:hover {
 	font-weight: 700;
   	letter-spacing: .5px;
   	text-transform: uppercase;
+  	margin-top: -22px;
 }
 
 .primary-nav a {
@@ -371,6 +384,11 @@ a:hover {
 	color: #ff6760;
 }
 
+.proy p {
+	font-weight: 300;
+	font-size: 13px
+}
+
 /*
   ========================================
   Primary footer
@@ -392,6 +410,10 @@ a:hover {
 
 .contact-info {
 	color: #ff6760;
+}
+
+.contact-info span {
+	color: #d9d9d9;
 }
 
 /*
@@ -486,7 +508,7 @@ textarea {
 
 .datos-personales input,
 .datos-personales select,
-..datos-personales textarea {
+.datos-personales textarea {
   border: 1px solid #c6c9cc;
   border-radius: 5px;
   display: block;
