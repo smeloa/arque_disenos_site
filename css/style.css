@@ -198,8 +198,8 @@ a:hover {
   	background: #ff6760;
   	color: #d9d9d9;
   	cursor: pointer;
-	display: inline-block;
-	font-size: 11px;
+	  display: inline-block;
+	  font-size: 11px;
   	font-weight: 700;
   	letter-spacing: .5px;
   	margin: 0;
@@ -222,17 +222,19 @@ a:hover {
 */
 
 .primary-header {
-	background: #000000;
+	background: #ffffff;
+	padding-top: 10px;
+	border-bottom: solid #2a2a2a
 }
 
-/* h1.logo {
-	width: 300px;
-	height: 75px;
-	background: url(LOGO_ADLM.png);
-	text-indent: -9999px;
-} */
+.logoimg {
+	width: 150px;
+	height: 50px;
+}
 
-.logo {
+/* Next Section is left in comments in case Logo is decided to be done just by CSS */
+
+/* .logo {
 	font-family: "Bodoni";
   	float: left;
   	font-size: 23px;
@@ -253,18 +255,19 @@ a:hover {
 
 .logo a:hover {
 	color: #d9d9d9;
-}
+} */
 
 .primary-nav {
 	font-size: 10px;
 	font-weight: 700;
-  	letter-spacing: .5px;
-  	text-transform: uppercase;
-  	margin-top: -22px;
+	letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-top: -75px; /*To fit image */
+ 	padding-bottom: 10px; /*To fit image */
 }
 
 .primary-nav a {
-	color: #d9d9d9;
+	color: #2a2a2a;
 }
 
 .primary-nav a:hover {
@@ -308,14 +311,22 @@ a:hover {
   ========================================
 */
 
-.hero {
-  	padding: 22px 80px 44px 80px;
-  	text-align: center;
+.back-picture {
+	background-image: url("../inte11.jpg"); 
+	height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {	
+  padding: 250px 80px 44px 80px;
+	text-align: left;
 }
 
 .hero p {
+  color: #2a2a2a;
 	font-size: 30px;
-	font-weight: 100;
+	font-weight: 700;
 	line-height: 45px;
 	padding-bottom: 20px;
 }
@@ -418,25 +429,25 @@ a:hover {
 
 /*
   ========================================
-  Empleados
+  About
   ========================================
 */
 
-.empleados {
+.nosotros {
 	background: #ffffff;
 }
 
-.empleado {
+.nosotros {
 	margin-bottom: 44px;
 	color: #2a2a2a;
 }
 
-.empleado h2 {
+.nosotros h2 {
 	font-weight: 400;
 	font-size: 35px; 
 }
 
-.empleado h5 {
+.nosotros h5 {
 	color: #ff6760;
 	font-weight: 300;
 	font-size: 20px;
@@ -444,20 +455,8 @@ a:hover {
 	padding-bottom: 10px;
 }
 
-.info-empleado {
-	font-size: 15px;
-	border: 1px solid #ff6760;
-	border-radius: 5px;
-	margin-top: 88px;
-	padding-bottom: 10px;
-	text-align: center;
-}
-
-.info-empleado img {
-  	border-radius: 50%;
-  	height: 130px;
-  	margin: -66px 0 22px 0;
-  	vertical-align: top;
+.nosotros img {
+	padding-top: 20px;
 }
 
 /*
@@ -501,7 +500,7 @@ textarea {
 }
 
 .datos-personales label {
-  color: #2a2a2a;
+  color: #c6c9cc;
   cursor: pointer;
   font-weight: 400;
 }
@@ -513,7 +512,7 @@ textarea {
   border-radius: 5px;
   display: block;
   margin: 5px 0 27px 0;
-  padding: 5px 8px;
+  padding: 5px 5px;
 }
 
 .datos-personales input,
